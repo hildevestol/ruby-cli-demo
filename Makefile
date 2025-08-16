@@ -18,7 +18,13 @@ setup: env build bundle # Initiates everything (building images, installing gems
 Gemfile.lock: Gemfile
 	docker compose run --rm app bundle install
 
-bundle: Gemfile.lock # Install missing gems
+# bundle directory stamp
+bundle/.stamp: Gemfile Gemfile.lock
+	mkdir -p bundle
+	docker compose run --rm app bundle install
+	touch bundle/.stamp
+
+bundle: bundle/.stamp ## Install missing gems
 	@true
 
 build: .build_stamp # Builds the image

@@ -10,7 +10,4 @@ services:
     command: thor app:ai
     volumes:
       - ".:/usr/src/app"
-      - bundle:/bundle
-
-volumes:
-  bundle:
+      - ./bundle:/bundle
