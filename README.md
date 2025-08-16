@@ -15,6 +15,8 @@ The reason for this is just to test some stuff by using a simple Ruby CLI applic
 ## Setup
 
 - `$ make setup`: Initiates everything (building images, installing gems)
+  - Will ask you for an open ai API key
+  - **NOTE:** You don't actually have to use setup. If you e.g. use `make run` or `make dev` then the needed parts of setup will be run automatically. E.g. if someone has changed the gemfile and you pull the latest changes, then bundle will automatically be called when running `make dev`.
 
 ## Daily dev
 
