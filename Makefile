@@ -27,12 +27,18 @@ build: .build_stamp ## Builds the image
 	docker compose build
 	touch .build_stamp
 
-# Env depends on .env.dev
-.env.dev: .env.example
-	cp -u .env.example .env.dev
-
-env: .env.dev ## Creates .env.dev from .env.example (unless it already exists)
-	@true
+env: ## Ensure .env.dev exists and has OPENAI_API_KEY set
+	@if [ ! -f .env.dev ]; then \
+		cp -u .env.example .env.dev; \
+	fi; \
+	if ! grep -q '^OPENAI_API_KEY=' .env.dev || grep -q '^OPENAI_API_KEY=$$' .env.dev; then \
+		read -p "Enter your OPENAI_API_KEY: " API_KEY; \
+		sed -i.bak '/^OPENAI_API_KEY=/d' .env.dev; rm -f .env.dev.bak; \
+		echo "OPENAI_API_KEY=$$API_KEY" >> .env.dev; \
+		echo "✅ Saved OPENAI_API_KEY to .env.dev"; \
+	else \
+		echo "✅ OPENAI_API_KEY already set in .env.dev"; \
+	fi
 
 # --- Utility targets ---
 
