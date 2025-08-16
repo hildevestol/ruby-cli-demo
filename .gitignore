@@ -1,2 +1,3 @@
+.build_stamp
 .env.dev
 .env
