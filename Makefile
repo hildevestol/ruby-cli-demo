@@ -7,7 +7,7 @@ bundle: ## Install missing gems
 	docker-compose run --rm app bundle install
 
 run: ## Runs the app in a one off
-	docker-compose run --rm app ./my_cli_app.rb hello Alice
+	docker-compose run --rm app ./bin/cli.rb hello Alice
 
 up: ## Runs the development server
 	docker-compose up
