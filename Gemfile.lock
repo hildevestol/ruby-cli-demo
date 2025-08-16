@@ -1,6 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    base64 (0.3.0)
+    connection_pool (2.5.3)
+    openai (0.17.1)
+      connection_pool
     thor (0.19.4)
 
 PLATFORMS
@@ -8,6 +12,8 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  base64 (~> 0.3.0)
+  openai (~> 0.17.1)
   thor (~> 0.19.1)
 
 BUNDLED WITH

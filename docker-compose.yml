@@ -7,7 +7,7 @@ services:
       - .env.dev
     stdin_open: true
     tty: true
-    command: ./bin/cli.rb hello Alice
+    command: thor app:ai
     volumes:
       - ".:/usr/src/app"
       - bundle:/bundle

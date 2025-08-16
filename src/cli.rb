@@ -1,5 +1,7 @@
+require_relative "services/my_ai"
+
 class CLI
-  def self.hello(name)
-    puts "Hello, #{name}!"
+  def self.ai
+    puts MyAi.new.talk
   end
 end
