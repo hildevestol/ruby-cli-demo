@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    thor (0.19.4)
+
+PLATFORMS
+  ruby
+  x86_64-linux-musl
+
+DEPENDENCIES
+  thor (~> 0.19.1)
+
+BUNDLED WITH
+   2.5.22

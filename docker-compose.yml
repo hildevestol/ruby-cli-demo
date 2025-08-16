@@ -1,0 +1,16 @@
+services:
+  app:
+    build:
+      context: .
+      target: dev
+    env_file:
+      - .env.dev
+    stdin_open: true
+    tty: true
+    command: ./my_cli_app.rb hello Alice
+    volumes:
+      - ".:/my_cli_app"
+      - bundle:/bundle
+
+volumes:
+  bundle:
