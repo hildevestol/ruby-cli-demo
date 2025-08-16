@@ -1,5 +1,5 @@
 help: ## Show this help message
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 run: setup ## Runs the app in a one off. If needed it also runs setup
 	docker compose run --rm app thor app:ai
@@ -12,22 +12,22 @@ up: setup ## Runs the development server
 
 # --- Run prerequisites ---
 
-setup: env build bundle ## Initiates everything (building images, installing gems)
+setup: env build bundle # Initiates everything (building images, installing gems)
 
 # Bundle depends on Gemfile + Gemfile.lock
 Gemfile.lock: Gemfile
 	docker compose run --rm app bundle install
 
-bundle: Gemfile.lock ## Install missing gems
+bundle: Gemfile.lock # Install missing gems
 	@true
 
-build: .build_stamp ## Builds the image
+build: .build_stamp # Builds the image
 
 .build_stamp: Dockerfile
 	docker compose build
 	touch .build_stamp
 
-env: ## Ensure .env.dev exists and has OPENAI_API_KEY set
+env: # Ensure .env.dev exists and has OPENAI_API_KEY set
 	@if [ ! -f .env.dev ]; then \
 		cp -u .env.example .env.dev; \
 	fi; \
