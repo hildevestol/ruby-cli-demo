@@ -1,17 +1,19 @@
+dc_run=docker compose run --rm app
+
 help: ## Show this help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 run: setup ## Runs the app in a one off. If needed it also runs setup
-	docker compose run --rm app thor app:ai
+	$(dc_run) thor app:ai
 
 dev: setup ## Fires a shell inside your container to use for normale development
-	docker compose run --rm app bash
+	$(dc_run) bash
 
 test: setup ## Runs the tests in a one off. If needed it also runs setup
-	docker compose run --rm app rspec
+	$(dc_run) rspec
 
 rubo: setup ## Runs rubocop in a one off. If needed it also runs setup
-	docker compose run --rm app rubocop
+	$(dc_run) rubocop
 
 up: setup ## Runs the development server
 	docker compose up
@@ -22,12 +24,12 @@ setup: env build bundle # Initiates everything (building images, installing gems
 
 # Bundle depends on Gemfile + Gemfile.lock
 Gemfile.lock: Gemfile
-	docker compose run --rm app bundle install
+	$(dc_run) bundle install
 
 # bundle directory stamp
 bundle/.stamp: Gemfile Gemfile.lock
 	mkdir -p bundle
-	docker compose run --rm app bundle install
+	$(dc_run) bundle install
 	touch bundle/.stamp
 
 bundle: bundle/.stamp ## Install missing gems
@@ -55,7 +57,7 @@ env: # Ensure .env.dev exists and has OPENAI_API_KEY set
 # --- Utility targets ---
 
 list: ## Lists thor commands
-	docker compose run --rm app thor list
+	$(dc_run) thor list
 
 down: ## Removes all the containers and tears down the setup
 	docker compose down
