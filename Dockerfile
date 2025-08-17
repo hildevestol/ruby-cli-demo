@@ -4,6 +4,15 @@ FROM ruby:3.3-alpine AS dev
 COPY .build-deps /
 RUN cat .build-deps | xargs apk add
 
+# Add a dev user to preven permission issues on files
+# beeing created from inside the container
+# also pre-making the bundle folder and
+# setting correct permissions to ensure
+# that bunlde does not fail.
+RUN adduser -D -u 1000 dev
+RUN mkdir -p /bundle && chown -R dev:dev /bundle
+USER dev
+
 # Set workdir in container
 WORKDIR /usr/src/app
 
