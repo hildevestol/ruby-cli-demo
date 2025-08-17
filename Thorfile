@@ -10,4 +10,9 @@ class App < Thor
   def ai
     CLI.ai
   end
+
+  desc 'ewc', 'returns summary of ewc 2025'
+  def ewc
+    CLI.ewc
+  end
 end

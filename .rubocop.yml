@@ -8,3 +8,8 @@ AllCops:
 
 Layout/LineLength:
   Max: 80
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma

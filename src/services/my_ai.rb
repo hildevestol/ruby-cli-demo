@@ -4,17 +4,33 @@ require 'openai'
 
 # This is a wrapper for OpenAI
 class MyAi
-  attr_reader :ai, :model
+  attr_reader :ai, :model, :response
 
   def initialize(model = 'gpt-4o-mini')
-    @ai = OpenAI::Client.new(api_key: ENV.fetch('OPENAI_API_KEY', nil))
+    @ai = OpenAI::Client.new(
+      api_key: ENV.fetch('OPENAI_API_KEY', nil),
+      timeout: 10_000,
+      max_retries: 0,
+    )
     @model = model
+    @response = nil
   end
 
   def talk
-    messages = [{ role: 'user', content: 'Say this is a test' }]
+    create([{ role: 'user', content: 'Say this is a test' }])
+  end
 
-    ai.chat.completions.create(messages: messages, model: ai_model)
+  def create(messages = [])
+    @response = ai.chat.completions.create(messages: messages, model: ai_model)
+    self
+  end
+
+  def response_content
+    raise 'no response' unless response
+
+    response.choices.map do |choice|
+      choice.message.content
+    end.join('\n')
   end
 
   private

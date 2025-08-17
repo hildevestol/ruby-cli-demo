@@ -16,8 +16,22 @@
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+# TODO: There should be a way to do this recursevly
 $LOAD_PATH.unshift File.expand_path('../src', __dir__)
 $LOAD_PATH.unshift File.expand_path('../src/services', __dir__)
+$LOAD_PATH.unshift File.expand_path('../src/helpers', __dir__)
+
+
+require 'vcr'
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/vcr_cassettes' # Directory to store recorded interactions
+  config.hook_into :webmock # or :faraday, etc., depending on your chosen library
+  config.filter_sensitive_data('<OPENAI_API_KEY>') do |interaction|
+    # Example: Replace AWS access key from environment variables
+    ENV['OPENAI_API_KEY']
+  end
+end
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
