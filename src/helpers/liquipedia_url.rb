@@ -13,7 +13,7 @@ class LiquipediaURL
       format: 'json',
       action: 'parse',
       prop: 'parsetree',
-      section: section
+      section: section,
     }
 
     "#{@base_url}?#{URI.encode_www_form(params)}"
