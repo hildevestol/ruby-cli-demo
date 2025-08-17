@@ -2,6 +2,8 @@
 
 The reason for this is just to test some stuff by using a simple Ruby CLI application
 
+Docker and Makefiles are heaveliy inspired by [Docker Ruby Boiler Plate](https://github.com/amrabdelwahab/docker-ruby-boilerplate/tree/master) written by [@amrabdelwahab](https://github.com/amrabdelwahab)
+
 ## Requirements
 
 - [Docker](https://www.docker.com) installed and running
@@ -10,6 +12,8 @@ The reason for this is just to test some stuff by using a simple Ruby CLI applic
 
 - `$ make help` => Lists alle available make commands
 - `$ make run`  => Runs the app as a "one-off"
+- `$ make test`  => Runs the test as a "one-off"
+- `$ make rubo`  => Runs the rubocop as a "one-off"
 - Don't use `gem install {gem}` inside a container, but rather add gems to the Gemfile or use `bundle add {gem}`
 
 ## Setup
