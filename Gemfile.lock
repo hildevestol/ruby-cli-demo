@@ -3,8 +3,22 @@ GEM
   specs:
     base64 (0.3.0)
     connection_pool (2.5.3)
+    diff-lcs (1.6.2)
     openai (0.17.1)
       connection_pool
+    rspec (3.13.1)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.5)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.4)
     thor (0.19.4)
 
 PLATFORMS
@@ -14,6 +28,7 @@ PLATFORMS
 DEPENDENCIES
   base64 (~> 0.3.0)
   openai (~> 0.17.1)
+  rspec
   thor (~> 0.19.1)
 
 BUNDLED WITH
