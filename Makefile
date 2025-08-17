@@ -7,6 +7,12 @@ run: setup ## Runs the app in a one off. If needed it also runs setup
 dev: setup ## Fires a shell inside your container to use for normale development
 	docker compose run --rm app bash
 
+test: setup ## Runs the tests in a one off. If needed it also runs setup
+	docker compose run --rm app rspec
+
+rubo: setup ## Runs rubocop in a one off. If needed it also runs setup
+	docker compose run --rm app rubocop
+
 up: setup ## Runs the development server
 	docker compose up
 
