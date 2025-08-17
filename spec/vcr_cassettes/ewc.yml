@@ -1,0 +1,710 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://liquipedia.net/rocketleague/api.php?action=parse&format=json&page=Esports_World_Cup/2025&prop=parsetree&section=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - liquipedia.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=120
+      Date:
+      - Sun, 17 Aug 2025 14:29:21 GMT
+      Content-Disposition:
+      - inline; filename=api-result.json
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Request-Id:
+      - 93a3f078071fcc2291e4cd68
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      Age:
+      - '0'
+      Via:
+      - 1.1 orion.teamliquid.net (Varnish/7.7)
+      Accept-Ranges:
+      - bytes
+      Vary:
+      - Accept-Encoding, Cookie
+      X-Cache:
+      - MISS
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"parse":{"title":"Esports World Cup/2025","pageid":155697,"parsetree":{"*":"<root><h
+        level=\"2\" i=\"1\">==About==</h>\nThe ''''''Esports World Cup'''''' is a
+        tournament series that was announced in late 2023, building off the previously
+        established [[Gamers8]] series. ''''''Rocket League'''''' was announced to
+        be returning as part of the 2025 line-up on December 15, 2024.<ext><name>ref</name><attr>
+        name=&quot;EWC RL&quot;</attr><inner>{{cite web|url=https://www.rocketleague.com/en/news/rlcs-2025-updates|title=RLCS
+        2025: Updates:|date=2024-12-15|author=Psyonix|language={{FlagNoLink|usuk}}
+        English}}</inner><close>&lt;/ref&gt;</close></ext><ext><name>ref</name><attr>
+        name=&quot;RL&quot;</attr><inner>{{cite web|url=https://www.x.com/ewc_en/status/1868340246724690075|title=Refuel
+        and return to the pitch|date=2024-12-15|author=EWC|language={{FlagNoLink|usuk}}
+        English}}</inner><close>&lt;/ref&gt;</close></ext>\n:''''See [[esports:Esports_World_Cup/2025|here]]
+        to read about the Esports World Cup 2025, the Calendar, the Club Standings
+        and more.''''\n\n<h level=\"3\" i=\"2\">===Format===</h>\n*''''''Group Stage''''''
+        - ''''August 14th - 16th, 2025''''\n** 16 teams divided into 4 groups where
+        they play GSL Format.\n*** All matches are <template><title>Abbr/Bo5</title></template>.\n**
+        &lt;span class=&quot;bg-up&quot;&gt;Top 2 teams&lt;/span&gt; in each group
+        advance to [[#Playoffs|Playoffs]].\n** &lt;span class=&quot;bg-down&quot;&gt;Bottom
+        2 teams&lt;/span&gt; in each group are eliminated.\n\n*''''''Playoffs''''''
+        - ''''August 16th - 17th, 2025''''\n** Single Elimination Bracket\n** Quarterfinals
+        were drawn randomly with 2-0 teams facing 2-1 teams.\n*** All matches are
+        <template><title>Abbr/Bo7</title></template>.\n\n<template lineStart=\"1\"><title>box</title><part><name
+        index=\"1\"/><value>start</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n\n<h
+        level=\"3\" i=\"3\">===Prize Pool===</h>\n$1,000,000 <template><title>Abbr/USD</title></template>
+        and [[esports:Esports_World_Cup/2025|EWC Club Points]] are spread among the
+        teams as seen below:\n<template lineStart=\"1\"><title>TeamPrizePool</title><part><name>points</name><equals>=</equals><value>ewc25</value></part><part><name>cutafter</name><equals>=</equals><value>8</value></part><part><name>prizesummary</name><equals>=</equals><value>false\n</value></part><part><name>tournament1</name><equals>=</equals><value>#Group_Stage\n</value></part><part><name>tournament2</name><equals>=</equals><value>#Playoffs\n</value></part><part><name
+        index=\"1\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>1</value></part><part><name>usdprize</name><equals>=</equals><value>400,000</value></part><part><name>points</name><equals>=</equals><value>1000</value></part></template>\n</value></part><part><name
+        index=\"2\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>2</value></part><part><name>usdprize</name><equals>=</equals><value>180,000</value></part><part><name>points</name><equals>=</equals><value>750</value></part></template>\n</value></part><part><name
+        index=\"3\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>3</value></part><part><name>usdprize</name><equals>=</equals><value>100,000</value></part><part><name>points</name><equals>=</equals><value>500</value></part></template>\n</value></part><part><name
+        index=\"4\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>4</value></part><part><name>usdprize</name><equals>=</equals><value>60,000</value></part><part><name>points</name><equals>=</equals><value>300</value></part></template>\n</value></part><part><name
+        index=\"5\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>5-8</value></part><part><name>usdprize</name><equals>=</equals><value>35,000</value></part><part><name>points</name><equals>=</equals><value>200</value></part></template>\n</value></part><part><name
+        index=\"6\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>9-12</value></part><part><name>usdprize</name><equals>=</equals><value>20,000</value></part></template>\n</value></part><part><name
+        index=\"7\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>13-16</value></part><part><name>usdprize</name><equals>=</equals><value>10,000</value></part></template>\n</value></part><part><name>adjacentContent</name><equals>=</equals><value>&lt;div&gt;\n<template
+        lineStart=\"1\"><title>AwardPrizePool</title><part><name>margin</name><equals>=</equals><value>false</value></part><part><name>cutafter</name><equals>=</equals><value>1\n</value></part><part><name
+        index=\"1\"/><value><template><title>Slot</title><part><name>usdprize</name><equals>=</equals><value>10,000</value></part><part><name>award</name><equals>=</equals><value>MVP</value></part><part><name
+        index=\"1\"/><value><template><title>SoloOpponent</title><part><name index=\"1\"/><value/></part></template></value></part></template>\n</value></part></template>&lt;/div&gt;\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>end</value></part></template></root>"}}}'
+  recorded_at: Sun, 17 Aug 2025 14:29:21 GMT
+- request:
+    method: get
+    uri: https://liquipedia.net/rocketleague/api.php?action=parse&format=json&page=Esports_World_Cup/2025&prop=parsetree&section=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - liquipedia.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=120
+      Date:
+      - Sun, 17 Aug 2025 14:29:22 GMT
+      Content-Disposition:
+      - inline; filename=api-result.json
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Request-Id:
+      - 6c74a820cd31a8f1468a645e
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      Age:
+      - '0'
+      Via:
+      - 1.1 orion.teamliquid.net (Varnish/7.7)
+      Accept-Ranges:
+      - bytes
+      Vary:
+      - Accept-Encoding, Cookie
+      X-Cache:
+      - MISS
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"parse":{"title":"Esports World Cup/2025","pageid":155697,"parsetree":{"*":"<root><h
+        level=\"3\" i=\"1\">===Format===</h>\n*''''''Group Stage'''''' - ''''August
+        14th - 16th, 2025''''\n** 16 teams divided into 4 groups where they play GSL
+        Format.\n*** All matches are <template><title>Abbr/Bo5</title></template>.\n**
+        &lt;span class=&quot;bg-up&quot;&gt;Top 2 teams&lt;/span&gt; in each group
+        advance to [[#Playoffs|Playoffs]].\n** &lt;span class=&quot;bg-down&quot;&gt;Bottom
+        2 teams&lt;/span&gt; in each group are eliminated.\n\n*''''''Playoffs''''''
+        - ''''August 16th - 17th, 2025''''\n** Single Elimination Bracket\n** Quarterfinals
+        were drawn randomly with 2-0 teams facing 2-1 teams.\n*** All matches are
+        <template><title>Abbr/Bo7</title></template>.\n\n<template lineStart=\"1\"><title>box</title><part><name
+        index=\"1\"/><value>start</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template></root>"}}}'
+  recorded_at: Sun, 17 Aug 2025 14:29:22 GMT
+- request:
+    method: get
+    uri: https://liquipedia.net/rocketleague/api.php?action=parse&format=json&page=Esports_World_Cup/2025&prop=parsetree&section=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - liquipedia.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=120
+      Date:
+      - Sun, 17 Aug 2025 14:29:22 GMT
+      Content-Disposition:
+      - inline; filename=api-result.json
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Request-Id:
+      - 12a0a8382c3d42c19b9f1f0c
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      Age:
+      - '0'
+      Via:
+      - 1.1 orion.teamliquid.net (Varnish/7.7)
+      Accept-Ranges:
+      - bytes
+      Vary:
+      - Accept-Encoding, Cookie
+      X-Cache:
+      - MISS
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"parse":{"title":"Esports World Cup/2025","pageid":155697,"parsetree":{"*":"<root><h
+        level=\"2\" i=\"1\">==Participants==</h>\n<template lineStart=\"1\"><title>TeamCardToggleButton</title></template>\n<template
+        lineStart=\"1\"><title>Team card columns start</title><part><name>cols</name><equals>=</equals><value>4</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>start</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Karmine
+        Corp</value></part><part><name>flag</name><equals>=</equals><value>eu\n</value></part><part><name>p1</name><equals>=</equals><value>Vatira\n</value></part><part><name>p2</name><equals>=</equals><value>Atow.\n</value></part><part><name>p3</name><equals>=</equals><value>dralii</value></part><part><name>p3wins</name><equals>=</equals><value>1\n</value></part><part><name>c</name><equals>=</equals><value>Ferra\n</value></part><part><name>c2</name><equals>=</equals><value>Jordi</value></part><part><name>c2link</name><equals>=</equals><value>Jordi
+        (French Coach)\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Europe|RLCS EU Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Dignitas</value></part><part><name>flag</name><equals>=</equals><value>eu\n</value></part><part><name>p1</name><equals>=</equals><value>stizzy\n</value></part><part><name>p2</name><equals>=</equals><value>ApparentlyJack\n</value></part><part><name>p3</name><equals>=</equals><value>Joreuz\n</value></part><part><name>c</name><equals>=</equals><value>ViolentPanda\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Europe|RLCS EU Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Team
+        Vitality</value></part><part><name>flag</name><equals>=</equals><value>eu\n</value></part><part><name>p1</name><equals>=</equals><value>zen\n</value></part><part><name>p2</name><equals>=</equals><value>M0nkey
+        M00n</value></part><part><name>p2wins</name><equals>=</equals><value>1\n</value></part><part><name>p3</name><equals>=</equals><value>ExoTiiK</value></part><part><name>p3wins</name><equals>=</equals><value>1\n</value></part><part><name>c</name><equals>=</equals><value>Kassio</value></part><part><name>cwinsc</name><equals>=</equals><value>1\n</value></part><part><name>c2</name><equals>=</equals><value>Hugo\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Europe|RLCS EU Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Geekay
+        Esports</value></part><part><name>flag</name><equals>=</equals><value>eu\n</value></part><part><name>p1</name><equals>=</equals><value>Archie\n</value></part><part><name>p2</name><equals>=</equals><value>Joyo\n</value></part><part><name>p3</name><equals>=</equals><value>oaly.\n</value></part><part><name>c</name><equals>=</equals><value>eekso\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Europe|RLCS EU Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>NRG</value></part><part><name>flag</name><equals>=</equals><value>usca\n</value></part><part><name>p1</name><equals>=</equals><value>Atomic\n</value></part><part><name>p2</name><equals>=</equals><value>BeastMode\n</value></part><part><name>p3</name><equals>=</equals><value>Daniel\n</value></part><part><name>c</name><equals>=</equals><value>Satthew\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/North America|RLCS NA Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>The
+        Ultimates</value></part><part><name>flag</name><equals>=</equals><value>usca\n</value></part><part><name>p1</name><equals>=</equals><value>Firstkiller\n</value></part><part><name>p2</name><equals>=</equals><value>Lj\n</value></part><part><name>p3</name><equals>=</equals><value>Chronic\n</value></part><part><name>s4</name><equals>=</equals><value>ElOmarMaton\n</value></part><part><name>c</name><equals>=</equals><value>Sadjunior\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/North America|RLCS NA Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Spacestation
+        Gaming</value></part><part><name>flag</name><equals>=</equals><value>usca\n</value></part><part><name>p1</name><equals>=</equals><value>Scrzbbles\n</value></part><part><name>p2</name><equals>=</equals><value>reveal\n</value></part><part><name>p3</name><equals>=</equals><value>kofyr\n</value></part><part><name>c</name><equals>=</equals><value>Xp\u00e9re\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/North America|RLCS NA Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Gen.G
+        Mobil1 Racing</value></part><part><name>flag</name><equals>=</equals><value>usca\n</value></part><part><name>p1</name><equals>=</equals><value>MaJicBear\n</value></part><part><name>p2</name><equals>=</equals><value>CHEESE.\n</value></part><part><name>p3</name><equals>=</equals><value>justin.\n</value></part><part><name>s4</name><equals>=</equals><value>Thundah\n</value></part><part><name>c</name><equals>=</equals><value>RawGreg\n</value></part><part><name>c2</name><equals>=</equals><value>Kevpert\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/North America|RLCS NA Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>FURIA</value></part><part><name>flag</name><equals>=</equals><value>sam\n</value></part><part><name>p1</name><equals>=</equals><value>yANXNZ\n</value></part><part><name>p2</name><equals>=</equals><value>Lostt\n</value></part><part><name>p3</name><equals>=</equals><value>DRUFINHO\n</value></part><part><name>c</name><equals>=</equals><value>STL\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/South America|RLCS SAM Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Team
+        Secret</value></part><part><name>flag</name><equals>=</equals><value>sam\n</value></part><part><name>p1</name><equals>=</equals><value>kv1\n</value></part><part><name>p2</name><equals>=</equals><value>Motta.\n</value></part><part><name>p3</name><equals>=</equals><value>swiftt\n</value></part><part><name>c</name><equals>=</equals><value>brunovisqui\n</value></part><part><name>c2</name><equals>=</equals><value>Groval\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/South America|RLCS SAM Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Team
+        Falcons</value></part><part><name>flag</name><equals>=</equals><value>mena\n</value></part><part><name>p1</name><equals>=</equals><value>Trk511\n</value></part><part><name>p2</name><equals>=</equals><value>Rw9\n</value></part><part><name>p3</name><equals>=</equals><value>Kiileerrz\n</value></part><part><name>c</name><equals>=</equals><value>d7oom-24\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Middle East and North Africa|RLCS
+        MENA Ranking]]\n</value></part></template>\n<template lineStart=\"1\"><title>box</title><part><name
+        index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Twisted
+        Minds</value></part><part><name>flag</name><equals>=</equals><value>mena\n</value></part><part><name>p1</name><equals>=</equals><value>Nwpo\n</value></part><part><name>p2</name><equals>=</equals><value>rise.\n</value></part><part><name>p3</name><equals>=</equals><value>atomik\n</value></part><part><name>s4</name><equals>=</equals><value>Hisoka\n</value></part><part><name>c</name><equals>=</equals><value>blau\n</value></part><part><name>c2</name><equals>=</equals><value>Senzo\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Middle East and North Africa|RLCS
+        MENA Ranking]]\n</value></part></template>\n<template lineStart=\"1\"><title>box</title><part><name
+        index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Wildcard</value></part><part><name>flag</name><equals>=</equals><value>oceania\n</value></part><part><name>p1</name><equals>=</equals><value>Fever\n</value></part><part><name>p2</name><equals>=</equals><value>Torsos\n</value></part><part><name>p3</name><equals>=</equals><value>bananahead\n</value></part><part><name>c</name><equals>=</equals><value>Jimmah\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Oceania|RLCS OCE Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>TSM</value></part><part><name>flag</name><equals>=</equals><value>oceania\n</value></part><part><name>p1</name><equals>=</equals><value>Superlachie\n</value></part><part><name>p2</name><equals>=</equals><value>Amphis\n</value></part><part><name>p3</name><equals>=</equals><value>kaka\n</value></part><part><name>c</name><equals>=</equals><value>Mock\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Oceania|RLCS OCE Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>FUT
+        Esports</value></part><part><name>flag</name><equals>=</equals><value>africa\n</value></part><part><name>p1</name><equals>=</equals><value>VKSailen\n</value></part><part><name>p2</name><equals>=</equals><value>Leoro\n</value></part><part><name>p3</name><equals>=</equals><value>TORRES8232\n</value></part><part><name>c</name><equals>=</equals><value>armonik\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Sub-Saharan Africa|RLCS SSA Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\n<template
+        lineStart=\"1\"><title>TeamCard\n</title><part><name>team</name><equals>=</equals><value>Virtus.pro</value></part><part><name>flag</name><equals>=</equals><value>asia\n</value></part><part><name>p1</name><equals>=</equals><value>Catalysm\n</value></part><part><name>p2</name><equals>=</equals><value>sosa\n</value></part><part><name>p3</name><equals>=</equals><value>Sphinx\n</value></part><part><name>c</name><equals>=</equals><value>mectos\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Asia-Pacific|RLCS APAC Ranking]]\n</value></part></template>\n<template
+        lineStart=\"1\"><title>box</title><part><name index=\"1\"/><value>end</value></part></template>\n<template
+        lineStart=\"1\"><title>Team card columns end</title></template></root>"}}}'
+  recorded_at: Sun, 17 Aug 2025 14:29:22 GMT
+- request:
+    method: get
+    uri: https://liquipedia.net/rocketleague/api.php?action=parse&format=json&page=Esports_World_Cup/2025&prop=parsetree&section=11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - liquipedia.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=120
+      Date:
+      - Sun, 17 Aug 2025 14:29:23 GMT
+      Content-Disposition:
+      - inline; filename=api-result.json
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Request-Id:
+      - 5b1e9099f3347fde873a98f2
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      Age:
+      - '0'
+      Via:
+      - 1.1 orion.teamliquid.net (Varnish/7.7)
+      Accept-Ranges:
+      - bytes
+      Vary:
+      - Accept-Encoding, Cookie
+      X-Cache:
+      - MISS
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"parse":{"title":"Esports World Cup/2025","pageid":155697,"parsetree":{"*":"<root><h
+        level=\"3\" i=\"1\">===<template><title>Stage</title><part><name index=\"1\"/><value>Playoffs</value></part></template>===</h>\n<template
+        lineStart=\"1\"><title>Toggle bracket start</title><part><name>tournament</name><equals>=</equals><value>Esports
+        World Cup/2025</value></part><part><name>matchsection</name><equals>=</equals><value>Playoffs</value></part><part><name>sdate</name><equals>=</equals><value>August
+        16, 2025</value></part><part><name>countdown</name><equals>=</equals><value>true</value></part></template>\n<template
+        lineStart=\"1\"><title>Bracket</title><part><name index=\"1\"/><value>Bracket/8</value></part><part><name>id</name><equals>=</equals><value>EWC2025POS</value></part><part><name>matchWidth</name><equals>=</equals><value>200</value></part><part><name>matchsection</name><equals>=</equals><value>Playoffs\n<comment>&lt;!--
+        Quarterfinals --&gt;\n</comment></value></part><part><name>R1M1</name><equals>=</equals><value><template><title>Match\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>team falcons</value></part><part><name>score</name><equals>=</equals><value>4</value></part></template>\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>ssg</value></part><part><name>score</name><equals>=</equals><value>1</value></part></template>\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Mannfield
+        (Night)\n        </value></part><part><name>score1</name><equals>=</equals><value>5</value></part><part><name>score2</name><equals>=</equals><value>4\n        </value></part><part><name>ot</name><equals>=</equals><value>t</value></part><part><name>otlength</name><equals>=</equals><value>+1:55\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=30506\n    </value></part></template>\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Forbidden
+        Temple\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value/></part><part><name>timeout</name><equals>=</equals><value>2\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=31186\n    </value></part></template>\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>DFH
+        Stadium (10th Anniversary)\n        </value></part><part><name>score1</name><equals>=</equals><value>4</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=31719\n    </value></part></template>\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Utopia
+        Coliseum (Dusk)\n        </value></part><part><name>score1</name><equals>=</equals><value>0</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=32208\n    </value></part></template>\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>AquaDome
+        (Salty Shallows)\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>0\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=32621\n    </value></part></template>\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map7</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>finished</name><equals>=</equals><value>t\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\n    </value></part><part><name>caster1</name><equals>=</equals><value>Achieves</value></part><part><name>caster2</name><equals>=</equals><value>Stumpy\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>ssg-vs-flcn-ocvnwjq2hq\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/ba56fa11/falcons-spacestation\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        16, 2025 - 22:15 <template><title>Abbr/AST</title></template>\n</value></part></template>\n\n</value></part><part><name>R1M2</name><equals>=</equals><value><template><title>Match\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>karmine corp</value></part><part><name>score</name><equals>=</equals><value>4</value></part></template>\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>ts</value></part><part><name>score</name><equals>=</equals><value>1</value></part></template>\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Mannfield
+        (Night)\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=20494\n    </value></part></template>\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Forbidden
+        Temple\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>3\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=21003\n    </value></part></template>\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>DFH
+        Stadium (10th Anniversary)\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=21497\n    </value></part></template>\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Utopia
+        Coliseum (Dusk)\n        </value></part><part><name>score1</name><equals>=</equals><value>6</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=22973\n    </value></part></template>\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>AquaDome
+        (Salty Shallows)\n        </value></part><part><name>score1</name><equals>=</equals><value>5</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=23498\n    </value></part></template>\n    </value></part><part><name>finished</name><equals>=</equals><value>true\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\n    </value></part><part><name>caster1</name><equals>=</equals><value>Jorby</value></part><part><name>caster2</name><equals>=</equals><value>Stumpy\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>kc-vs-ts-lazr101n5q\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/56f1fa66/kc-teamsecret\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        16, 2025 - 19:40 <template><title>Abbr/AST</title></template>\n</value></part></template>\n\n</value></part><part><name>R1M3</name><equals>=</equals><value><template><title>Match\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>team vitality</value></part><part><name>score</name><equals>=</equals><value>4</value></part></template>\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>nrg</value></part><part><name>score</name><equals>=</equals><value>2</value></part></template>\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Mannfield
+        (Night)\n        </value></part><part><name>score1</name><equals>=</equals><value>0</value></part><part><name>score2</name><equals>=</equals><value>3\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=16452\n    </value></part></template>\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Forbidden
+        Temple\n        </value></part><part><name>score1</name><equals>=</equals><value>1</value></part><part><name>score2</name><equals>=</equals><value>0\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=16900\n    </value></part></template>\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>DFH
+        Stadium (10th Anniversary)\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value>true</value></part><part><name>otlength</name><equals>=</equals><value>+0:30\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=17305\n    </value></part></template>\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Utopia
+        Coliseum (Dusk)\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>1</value></part><part><name>timeout</name><equals>=</equals><value>2\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=17787\n    </value></part></template>\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>AquaDome
+        (Salty Shallows)\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>4\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=18313\n    </value></part></template>\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Neo
+        Tokyo\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>0\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=18816\n    </value></part></template>\n    </value></part><part><name>finished</name><equals>=</equals><value>true\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\n    </value></part><part><name>caster1</name><equals>=</equals><value>Herculyse</value></part><part><name>caster2</name><equals>=</equals><value>Stumpy\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>vita-vs-nrg-djzoyb6kil\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/66dddcef/vitality-nrg\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        16, 2025 - 18:35 <template><title>Abbr/AST</title></template>\n</value></part></template>\n\n</value></part><part><name>R1M4</name><equals>=</equals><value><template><title>Match\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>dignitas</value></part><part><name>score</name><equals>=</equals><value>1</value></part></template>\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>gk</value></part><part><name>score</name><equals>=</equals><value>4</value></part></template>\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Mannfield
+        (Night)\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>2\n        </value></part><part><name>ot</name><equals>=</equals><value>true</value></part><part><name>otlength</name><equals>=</equals><value>+1:57\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=26845\n    </value></part></template>\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Forbidden
+        Temple\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>3\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=27424\n    </value></part></template>\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>DFH
+        Stadium (10th Anniversary)\n        </value></part><part><name>score1</name><equals>=</equals><value>1</value></part><part><name>score2</name><equals>=</equals><value>3\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value/></part><part><name>timeout</name><equals>=</equals><value>1\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=27908\n    </value></part></template>\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>Utopia
+        Coliseum (Dusk)\n        </value></part><part><name>score1</name><equals>=</equals><value>0</value></part><part><name>score2</name><equals>=</equals><value>1\n        </value></part><part><name>ot</name><equals>=</equals><value>t</value></part><part><name>otlength</name><equals>=</equals><value>+0:43\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=28447\n    </value></part></template>\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>AquaDome
+        (Salty Shallows)\n        </value></part><part><name>score1</name><equals>=</equals><value>0</value></part><part><name>score2</name><equals>=</equals><value>2\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=28901\n    </value></part></template>\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map7</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>finished</name><equals>=</equals><value>t\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\n    </value></part><part><name>caster1</name><equals>=</equals><value>Achieves</value></part><part><name>caster2</name><equals>=</equals><value>Jorby\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>dig-vs-gk-vnyvcc9b8h\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/2502a842/dignitas-geekay\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        16, 2025 - 21:10 <template><title>Abbr/AST</title></template>\n</value></part></template>\n\n<comment>&lt;!--
+        Semifinals --&gt;\n</comment></value></part><part><name>R2M1</name><equals>=</equals><value><template><title>Match\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>team falcons</value></part><part><name>score</name><equals>=</equals><value/></part></template>\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>karmine corp</value></part><part><name>score</name><equals>=</equals><value/></part></template>\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map7</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>finished</name><equals>=</equals><value>\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\n    </value></part><part><name>caster1</name><equals>=</equals><value/></part><part><name>caster2</name><equals>=</equals><value>\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>flcn-vs-kc-9oobrlzx75\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/e79dd5af/falcons-kc\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        17, 2025 - 19:00 <template><title>Abbr/AST</title></template>\n</value></part></template>\n\n</value></part><part><name>R2M2</name><equals>=</equals><value><template><title>Match\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>team vitality</value></part><part><name>score</name><equals>=</equals><value/></part></template>\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value>gk</value></part><part><name>score</name><equals>=</equals><value/></part></template>\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map7</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>finished</name><equals>=</equals><value>\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\n    </value></part><part><name>caster1</name><equals>=</equals><value/></part><part><name>caster2</name><equals>=</equals><value>\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>vita-vs-gk-adx772kwoy\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/faa7efed/vitality-geekay\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        17, 2025 - 20:15 <template><title>Abbr/AST</title></template>\n</value></part></template>\n\n<comment>&lt;!--
+        Third Place --&gt;\n</comment></value></part><part><name>RxMTP</name><equals>=</equals><value><template><title>Match\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value/></part><part><name>score</name><equals>=</equals><value/></part></template>\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value/></part><part><name>score</name><equals>=</equals><value/></part></template>\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map7</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>finished</name><equals>=</equals><value>\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\n    </value></part><part><name>caster1</name><equals>=</equals><value/></part><part><name>caster2</name><equals>=</equals><value>\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>\n    </value></part><part><name>blasttv</name><equals>=</equals><value>\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        17, 2025 - 21:40 <template><title>Abbr/AST</title></template>\n</value></part></template>\n\n<comment>&lt;!--
+        Grand Final --&gt;\n</comment></value></part><part><name>R3M1</name><equals>=</equals><value><template><title>Match\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value/></part><part><name>score</name><equals>=</equals><value/></part></template>\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\"1\"/><value/></part><part><name>score</name><equals>=</equals><value/></part></template>\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>map7</name><equals>=</equals><value><template><title>Map\n        </title><part><name>map</name><equals>=</equals><value>\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\n        </value></part><part><name>vod</name><equals>=</equals><value>\n    </value></part></template>\n    </value></part><part><name>finished</name><equals>=</equals><value>\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\n    </value></part><part><name>caster1</name><equals>=</equals><value/></part><part><name>caster2</name><equals>=</equals><value>\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>\n    </value></part><part><name>blasttv</name><equals>=</equals><value>\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        17, 2025 - 22:55 <template><title>Abbr/AST</title></template>\n</value></part></template>\n\n</value></part></template>\n<template
+        lineStart=\"1\"><title>Toggle bracket end</title></template></root>"}}}'
+  recorded_at: Sun, 17 Aug 2025 14:29:23 GMT
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"messages":[{"role":"system","content":"You are a esport research
+        assistant who summarizes information about esport events."},{"role":"user","content":"Summarize
+        the Rocket League tournament so far in the Esports World Cup including which
+        teams that participates, teams remaining, latest match results and next matches
+        from these sources:\n\n{\"parse\":{\"title\":\"Esports World Cup/2025\",\"pageid\":155697,\"parsetree\":{\"*\":\"<root><h
+        level=\\\"2\\\" i=\\\"1\\\">==About==</h>\\nThe ''''''Esports World Cup''''''
+        is a tournament series that was announced in late 2023, building off the previously
+        established [[Gamers8]] series. ''''''Rocket League'''''' was announced to
+        be returning as part of the 2025 line-up on December 15, 2024.<ext><name>ref</name><attr>
+        name=&quot;EWC RL&quot;</attr><inner>{{cite web|url=https://www.rocketleague.com/en/news/rlcs-2025-updates|title=RLCS
+        2025: Updates:|date=2024-12-15|author=Psyonix|language={{FlagNoLink|usuk}}
+        English}}</inner><close>&lt;/ref&gt;</close></ext><ext><name>ref</name><attr>
+        name=&quot;RL&quot;</attr><inner>{{cite web|url=https://www.x.com/ewc_en/status/1868340246724690075|title=Refuel
+        and return to the pitch|date=2024-12-15|author=EWC|language={{FlagNoLink|usuk}}
+        English}}</inner><close>&lt;/ref&gt;</close></ext>\\n:''''See [[esports:Esports_World_Cup/2025|here]]
+        to read about the Esports World Cup 2025, the Calendar, the Club Standings
+        and more.''''\\n\\n<h level=\\\"3\\\" i=\\\"2\\\">===Format===</h>\\n*''''''Group
+        Stage'''''' - ''''August 14th - 16th, 2025''''\\n** 16 teams divided into
+        4 groups where they play GSL Format.\\n*** All matches are <template><title>Abbr/Bo5</title></template>.\\n**
+        &lt;span class=&quot;bg-up&quot;&gt;Top 2 teams&lt;/span&gt; in each group
+        advance to [[#Playoffs|Playoffs]].\\n** &lt;span class=&quot;bg-down&quot;&gt;Bottom
+        2 teams&lt;/span&gt; in each group are eliminated.\\n\\n*''''''Playoffs''''''
+        - ''''August 16th - 17th, 2025''''\\n** Single Elimination Bracket\\n** Quarterfinals
+        were drawn randomly with 2-0 teams facing 2-1 teams.\\n*** All matches are
+        <template><title>Abbr/Bo7</title></template>.\\n\\n<template lineStart=\\\"1\\\"><title>box</title><part><name
+        index=\\\"1\\\"/><value>start</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n\\n<h
+        level=\\\"3\\\" i=\\\"3\\\">===Prize Pool===</h>\\n$1,000,000 <template><title>Abbr/USD</title></template>
+        and [[esports:Esports_World_Cup/2025|EWC Club Points]] are spread among the
+        teams as seen below:\\n<template lineStart=\\\"1\\\"><title>TeamPrizePool</title><part><name>points</name><equals>=</equals><value>ewc25</value></part><part><name>cutafter</name><equals>=</equals><value>8</value></part><part><name>prizesummary</name><equals>=</equals><value>false\\n</value></part><part><name>tournament1</name><equals>=</equals><value>#Group_Stage\\n</value></part><part><name>tournament2</name><equals>=</equals><value>#Playoffs\\n</value></part><part><name
+        index=\\\"1\\\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>1</value></part><part><name>usdprize</name><equals>=</equals><value>400,000</value></part><part><name>points</name><equals>=</equals><value>1000</value></part></template>\\n</value></part><part><name
+        index=\\\"2\\\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>2</value></part><part><name>usdprize</name><equals>=</equals><value>180,000</value></part><part><name>points</name><equals>=</equals><value>750</value></part></template>\\n</value></part><part><name
+        index=\\\"3\\\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>3</value></part><part><name>usdprize</name><equals>=</equals><value>100,000</value></part><part><name>points</name><equals>=</equals><value>500</value></part></template>\\n</value></part><part><name
+        index=\\\"4\\\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>4</value></part><part><name>usdprize</name><equals>=</equals><value>60,000</value></part><part><name>points</name><equals>=</equals><value>300</value></part></template>\\n</value></part><part><name
+        index=\\\"5\\\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>5-8</value></part><part><name>usdprize</name><equals>=</equals><value>35,000</value></part><part><name>points</name><equals>=</equals><value>200</value></part></template>\\n</value></part><part><name
+        index=\\\"6\\\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>9-12</value></part><part><name>usdprize</name><equals>=</equals><value>20,000</value></part></template>\\n</value></part><part><name
+        index=\\\"7\\\"/><value><template><title>Slot</title><part><name>place</name><equals>=</equals><value>13-16</value></part><part><name>usdprize</name><equals>=</equals><value>10,000</value></part></template>\\n</value></part><part><name>adjacentContent</name><equals>=</equals><value>&lt;div&gt;\\n<template
+        lineStart=\\\"1\\\"><title>AwardPrizePool</title><part><name>margin</name><equals>=</equals><value>false</value></part><part><name>cutafter</name><equals>=</equals><value>1\\n</value></part><part><name
+        index=\\\"1\\\"/><value><template><title>Slot</title><part><name>usdprize</name><equals>=</equals><value>10,000</value></part><part><name>award</name><equals>=</equals><value>MVP</value></part><part><name
+        index=\\\"1\\\"/><value><template><title>SoloOpponent</title><part><name index=\\\"1\\\"/><value/></part></template></value></part></template>\\n</value></part></template>&lt;/div&gt;\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>end</value></part></template></root>\"}}}\n\n{\"parse\":{\"title\":\"Esports
+        World Cup/2025\",\"pageid\":155697,\"parsetree\":{\"*\":\"<root><h level=\\\"3\\\"
+        i=\\\"1\\\">===Format===</h>\\n*''''''Group Stage'''''' - ''''August 14th
+        - 16th, 2025''''\\n** 16 teams divided into 4 groups where they play GSL Format.\\n***
+        All matches are <template><title>Abbr/Bo5</title></template>.\\n** &lt;span
+        class=&quot;bg-up&quot;&gt;Top 2 teams&lt;/span&gt; in each group advance
+        to [[#Playoffs|Playoffs]].\\n** &lt;span class=&quot;bg-down&quot;&gt;Bottom
+        2 teams&lt;/span&gt; in each group are eliminated.\\n\\n*''''''Playoffs''''''
+        - ''''August 16th - 17th, 2025''''\\n** Single Elimination Bracket\\n** Quarterfinals
+        were drawn randomly with 2-0 teams facing 2-1 teams.\\n*** All matches are
+        <template><title>Abbr/Bo7</title></template>.\\n\\n<template lineStart=\\\"1\\\"><title>box</title><part><name
+        index=\\\"1\\\"/><value>start</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template></root>\"}}}\n\n{\"parse\":{\"title\":\"Esports
+        World Cup/2025\",\"pageid\":155697,\"parsetree\":{\"*\":\"<root><h level=\\\"2\\\"
+        i=\\\"1\\\">==Participants==</h>\\n<template lineStart=\\\"1\\\"><title>TeamCardToggleButton</title></template>\\n<template
+        lineStart=\\\"1\\\"><title>Team card columns start</title><part><name>cols</name><equals>=</equals><value>4</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>start</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Karmine
+        Corp</value></part><part><name>flag</name><equals>=</equals><value>eu\\n</value></part><part><name>p1</name><equals>=</equals><value>Vatira\\n</value></part><part><name>p2</name><equals>=</equals><value>Atow.\\n</value></part><part><name>p3</name><equals>=</equals><value>dralii</value></part><part><name>p3wins</name><equals>=</equals><value>1\\n</value></part><part><name>c</name><equals>=</equals><value>Ferra\\n</value></part><part><name>c2</name><equals>=</equals><value>Jordi</value></part><part><name>c2link</name><equals>=</equals><value>Jordi
+        (French Coach)\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Europe|RLCS EU Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Dignitas</value></part><part><name>flag</name><equals>=</equals><value>eu\\n</value></part><part><name>p1</name><equals>=</equals><value>stizzy\\n</value></part><part><name>p2</name><equals>=</equals><value>ApparentlyJack\\n</value></part><part><name>p3</name><equals>=</equals><value>Joreuz\\n</value></part><part><name>c</name><equals>=</equals><value>ViolentPanda\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Europe|RLCS EU Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Team
+        Vitality</value></part><part><name>flag</name><equals>=</equals><value>eu\\n</value></part><part><name>p1</name><equals>=</equals><value>zen\\n</value></part><part><name>p2</name><equals>=</equals><value>M0nkey
+        M00n</value></part><part><name>p2wins</name><equals>=</equals><value>1\\n</value></part><part><name>p3</name><equals>=</equals><value>ExoTiiK</value></part><part><name>p3wins</name><equals>=</equals><value>1\\n</value></part><part><name>c</name><equals>=</equals><value>Kassio</value></part><part><name>cwinsc</name><equals>=</equals><value>1\\n</value></part><part><name>c2</name><equals>=</equals><value>Hugo\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Europe|RLCS EU Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Geekay
+        Esports</value></part><part><name>flag</name><equals>=</equals><value>eu\\n</value></part><part><name>p1</name><equals>=</equals><value>Archie\\n</value></part><part><name>p2</name><equals>=</equals><value>Joyo\\n</value></part><part><name>p3</name><equals>=</equals><value>oaly.\\n</value></part><part><name>c</name><equals>=</equals><value>eekso\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Europe|RLCS EU Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>NRG</value></part><part><name>flag</name><equals>=</equals><value>usca\\n</value></part><part><name>p1</name><equals>=</equals><value>Atomic\\n</value></part><part><name>p2</name><equals>=</equals><value>BeastMode\\n</value></part><part><name>p3</name><equals>=</equals><value>Daniel\\n</value></part><part><name>c</name><equals>=</equals><value>Satthew\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/North America|RLCS NA Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>The
+        Ultimates</value></part><part><name>flag</name><equals>=</equals><value>usca\\n</value></part><part><name>p1</name><equals>=</equals><value>Firstkiller\\n</value></part><part><name>p2</name><equals>=</equals><value>Lj\\n</value></part><part><name>p3</name><equals>=</equals><value>Chronic\\n</value></part><part><name>s4</name><equals>=</equals><value>ElOmarMaton\\n</value></part><part><name>c</name><equals>=</equals><value>Sadjunior\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/North America|RLCS NA Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Spacestation
+        Gaming</value></part><part><name>flag</name><equals>=</equals><value>usca\\n</value></part><part><name>p1</name><equals>=</equals><value>Scrzbbles\\n</value></part><part><name>p2</name><equals>=</equals><value>reveal\\n</value></part><part><name>p3</name><equals>=</equals><value>kofyr\\n</value></part><part><name>c</name><equals>=</equals><value>Xp\\u00e9re\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/North America|RLCS NA Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Gen.G
+        Mobil1 Racing</value></part><part><name>flag</name><equals>=</equals><value>usca\\n</value></part><part><name>p1</name><equals>=</equals><value>MaJicBear\\n</value></part><part><name>p2</name><equals>=</equals><value>CHEESE.\\n</value></part><part><name>p3</name><equals>=</equals><value>justin.\\n</value></part><part><name>s4</name><equals>=</equals><value>Thundah\\n</value></part><part><name>c</name><equals>=</equals><value>RawGreg\\n</value></part><part><name>c2</name><equals>=</equals><value>Kevpert\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/North America|RLCS NA Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>FURIA</value></part><part><name>flag</name><equals>=</equals><value>sam\\n</value></part><part><name>p1</name><equals>=</equals><value>yANXNZ\\n</value></part><part><name>p2</name><equals>=</equals><value>Lostt\\n</value></part><part><name>p3</name><equals>=</equals><value>DRUFINHO\\n</value></part><part><name>c</name><equals>=</equals><value>STL\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/South America|RLCS SAM Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Team
+        Secret</value></part><part><name>flag</name><equals>=</equals><value>sam\\n</value></part><part><name>p1</name><equals>=</equals><value>kv1\\n</value></part><part><name>p2</name><equals>=</equals><value>Motta.\\n</value></part><part><name>p3</name><equals>=</equals><value>swiftt\\n</value></part><part><name>c</name><equals>=</equals><value>brunovisqui\\n</value></part><part><name>c2</name><equals>=</equals><value>Groval\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/South America|RLCS SAM Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Team
+        Falcons</value></part><part><name>flag</name><equals>=</equals><value>mena\\n</value></part><part><name>p1</name><equals>=</equals><value>Trk511\\n</value></part><part><name>p2</name><equals>=</equals><value>Rw9\\n</value></part><part><name>p3</name><equals>=</equals><value>Kiileerrz\\n</value></part><part><name>c</name><equals>=</equals><value>d7oom-24\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Middle East and North Africa|RLCS
+        MENA Ranking]]\\n</value></part></template>\\n<template lineStart=\\\"1\\\"><title>box</title><part><name
+        index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Twisted
+        Minds</value></part><part><name>flag</name><equals>=</equals><value>mena\\n</value></part><part><name>p1</name><equals>=</equals><value>Nwpo\\n</value></part><part><name>p2</name><equals>=</equals><value>rise.\\n</value></part><part><name>p3</name><equals>=</equals><value>atomik\\n</value></part><part><name>s4</name><equals>=</equals><value>Hisoka\\n</value></part><part><name>c</name><equals>=</equals><value>blau\\n</value></part><part><name>c2</name><equals>=</equals><value>Senzo\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Middle East and North Africa|RLCS
+        MENA Ranking]]\\n</value></part></template>\\n<template lineStart=\\\"1\\\"><title>box</title><part><name
+        index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Wildcard</value></part><part><name>flag</name><equals>=</equals><value>oceania\\n</value></part><part><name>p1</name><equals>=</equals><value>Fever\\n</value></part><part><name>p2</name><equals>=</equals><value>Torsos\\n</value></part><part><name>p3</name><equals>=</equals><value>bananahead\\n</value></part><part><name>c</name><equals>=</equals><value>Jimmah\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Oceania|RLCS OCE Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>TSM</value></part><part><name>flag</name><equals>=</equals><value>oceania\\n</value></part><part><name>p1</name><equals>=</equals><value>Superlachie\\n</value></part><part><name>p2</name><equals>=</equals><value>Amphis\\n</value></part><part><name>p3</name><equals>=</equals><value>kaka\\n</value></part><part><name>c</name><equals>=</equals><value>Mock\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Oceania|RLCS OCE Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>FUT
+        Esports</value></part><part><name>flag</name><equals>=</equals><value>africa\\n</value></part><part><name>p1</name><equals>=</equals><value>VKSailen\\n</value></part><part><name>p2</name><equals>=</equals><value>Leoro\\n</value></part><part><name>p3</name><equals>=</equals><value>TORRES8232\\n</value></part><part><name>c</name><equals>=</equals><value>armonik\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Sub-Saharan Africa|RLCS SSA Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>break</value></part><part><name>padding</name><equals>=</equals><value>2em</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>TeamCard\\n</title><part><name>team</name><equals>=</equals><value>Virtus.pro</value></part><part><name>flag</name><equals>=</equals><value>asia\\n</value></part><part><name>p1</name><equals>=</equals><value>Catalysm\\n</value></part><part><name>p2</name><equals>=</equals><value>sosa\\n</value></part><part><name>p3</name><equals>=</equals><value>Sphinx\\n</value></part><part><name>c</name><equals>=</equals><value>mectos\\n</value></part><part><name>qualifier</name><equals>=</equals><value>[[Rocket
+        League Championship Series/2025/Rankings/Asia-Pacific|RLCS APAC Ranking]]\\n</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>box</title><part><name index=\\\"1\\\"/><value>end</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>Team card columns end</title></template></root>\"}}}\n\n{\"parse\":{\"title\":\"Esports
+        World Cup/2025\",\"pageid\":155697,\"parsetree\":{\"*\":\"<root><h level=\\\"3\\\"
+        i=\\\"1\\\">===<template><title>Stage</title><part><name index=\\\"1\\\"/><value>Playoffs</value></part></template>===</h>\\n<template
+        lineStart=\\\"1\\\"><title>Toggle bracket start</title><part><name>tournament</name><equals>=</equals><value>Esports
+        World Cup/2025</value></part><part><name>matchsection</name><equals>=</equals><value>Playoffs</value></part><part><name>sdate</name><equals>=</equals><value>August
+        16, 2025</value></part><part><name>countdown</name><equals>=</equals><value>true</value></part></template>\\n<template
+        lineStart=\\\"1\\\"><title>Bracket</title><part><name index=\\\"1\\\"/><value>Bracket/8</value></part><part><name>id</name><equals>=</equals><value>EWC2025POS</value></part><part><name>matchWidth</name><equals>=</equals><value>200</value></part><part><name>matchsection</name><equals>=</equals><value>Playoffs\\n<comment>&lt;!--
+        Quarterfinals --&gt;\\n</comment></value></part><part><name>R1M1</name><equals>=</equals><value><template><title>Match\\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\\\"1\\\"/><value>team falcons</value></part><part><name>score</name><equals>=</equals><value>4</value></part></template>\\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\\\"1\\\"/><value>ssg</value></part><part><name>score</name><equals>=</equals><value>1</value></part></template>\\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Mannfield
+        (Night)\\n        </value></part><part><name>score1</name><equals>=</equals><value>5</value></part><part><name>score2</name><equals>=</equals><value>4\\n        </value></part><part><name>ot</name><equals>=</equals><value>t</value></part><part><name>otlength</name><equals>=</equals><value>+1:55\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=30506\\n    </value></part></template>\\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Forbidden
+        Temple\\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value/></part><part><name>timeout</name><equals>=</equals><value>2\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=31186\\n    </value></part></template>\\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>DFH
+        Stadium (10th Anniversary)\\n        </value></part><part><name>score1</name><equals>=</equals><value>4</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=31719\\n    </value></part></template>\\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Utopia
+        Coliseum (Dusk)\\n        </value></part><part><name>score1</name><equals>=</equals><value>0</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=32208\\n    </value></part></template>\\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>AquaDome
+        (Salty Shallows)\\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>0\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=32621\\n    </value></part></template>\\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>\\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>\\n    </value></part></template>\\n    </value></part><part><name>map7</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>\\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>\\n    </value></part></template>\\n    </value></part><part><name>finished</name><equals>=</equals><value>t\\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\\n    </value></part><part><name>caster1</name><equals>=</equals><value>Achieves</value></part><part><name>caster2</name><equals>=</equals><value>Stumpy\\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>ssg-vs-flcn-ocvnwjq2hq\\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/ba56fa11/falcons-spacestation\\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        16, 2025 - 22:15 <template><title>Abbr/AST</title></template>\\n</value></part></template>\\n\\n</value></part><part><name>R1M2</name><equals>=</equals><value><template><title>Match\\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\\\"1\\\"/><value>karmine corp</value></part><part><name>score</name><equals>=</equals><value>4</value></part></template>\\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\\\"1\\\"/><value>ts</value></part><part><name>score</name><equals>=</equals><value>1</value></part></template>\\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Mannfield
+        (Night)\\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=20494\\n    </value></part></template>\\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Forbidden
+        Temple\\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>3\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=21003\\n    </value></part></template>\\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>DFH
+        Stadium (10th Anniversary)\\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=21497\\n    </value></part></template>\\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Utopia
+        Coliseum (Dusk)\\n        </value></part><part><name>score1</name><equals>=</equals><value>6</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=22973\\n    </value></part></template>\\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>AquaDome
+        (Salty Shallows)\\n        </value></part><part><name>score1</name><equals>=</equals><value>5</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=23498\\n    </value></part></template>\\n    </value></part><part><name>finished</name><equals>=</equals><value>true\\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\\n    </value></part><part><name>caster1</name><equals>=</equals><value>Jorby</value></part><part><name>caster2</name><equals>=</equals><value>Stumpy\\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>kc-vs-ts-lazr101n5q\\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/56f1fa66/kc-teamsecret\\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        16, 2025 - 19:40 <template><title>Abbr/AST</title></template>\\n</value></part></template>\\n\\n</value></part><part><name>R1M3</name><equals>=</equals><value><template><title>Match\\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\\\"1\\\"/><value>team vitality</value></part><part><name>score</name><equals>=</equals><value>4</value></part></template>\\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\\\"1\\\"/><value>nrg</value></part><part><name>score</name><equals>=</equals><value>2</value></part></template>\\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Mannfield
+        (Night)\\n        </value></part><part><name>score1</name><equals>=</equals><value>0</value></part><part><name>score2</name><equals>=</equals><value>3\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=16452\\n    </value></part></template>\\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Forbidden
+        Temple\\n        </value></part><part><name>score1</name><equals>=</equals><value>1</value></part><part><name>score2</name><equals>=</equals><value>0\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=16900\\n    </value></part></template>\\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>DFH
+        Stadium (10th Anniversary)\\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value>true</value></part><part><name>otlength</name><equals>=</equals><value>+0:30\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=17305\\n    </value></part></template>\\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Utopia
+        Coliseum (Dusk)\\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>1</value></part><part><name>timeout</name><equals>=</equals><value>2\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=17787\\n    </value></part></template>\\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>AquaDome
+        (Salty Shallows)\\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>4\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=18313\\n    </value></part></template>\\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Neo
+        Tokyo\\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>0\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=18816\\n    </value></part></template>\\n    </value></part><part><name>finished</name><equals>=</equals><value>true\\n    </value></part><part><name>twitch</name><equals>=</equals><value>Esports
+        World Cup STC Esports Arena</value></part><part><name>youtube</name><equals>=</equals><value>EWC\\n    </value></part><part><name>caster1</name><equals>=</equals><value>Herculyse</value></part><part><name>caster2</name><equals>=</equals><value>Stumpy\\n    </value></part><part><name>ballchasing</name><equals>=</equals><value>vita-vs-nrg-djzoyb6kil\\n    </value></part><part><name>blasttv</name><equals>=</equals><value>rl/tournaments/esports-world-cup-2025/series/66dddcef/vitality-nrg\\n    </value></part><part><name>date</name><equals>=</equals><value>August
+        16, 2025 - 18:35 <template><title>Abbr/AST</title></template>\\n</value></part></template>\\n\\n</value></part><part><name>R1M4</name><equals>=</equals><value><template><title>Match\\n    </title><part><name>opponent1</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\\\"1\\\"/><value>dignitas</value></part><part><name>score</name><equals>=</equals><value>1</value></part></template>\\n    </value></part><part><name>opponent2</name><equals>=</equals><value><template><title>TeamOpponent</title><part><name
+        index=\\\"1\\\"/><value>gk</value></part><part><name>score</name><equals>=</equals><value>4</value></part></template>\\n    </value></part><part><name>map1</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Mannfield
+        (Night)\\n        </value></part><part><name>score1</name><equals>=</equals><value>3</value></part><part><name>score2</name><equals>=</equals><value>2\\n        </value></part><part><name>ot</name><equals>=</equals><value>true</value></part><part><name>otlength</name><equals>=</equals><value>+1:57\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=26845\\n    </value></part></template>\\n    </value></part><part><name>map2</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Forbidden
+        Temple\\n        </value></part><part><name>score1</name><equals>=</equals><value>2</value></part><part><name>score2</name><equals>=</equals><value>3\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=27424\\n    </value></part></template>\\n    </value></part><part><name>map3</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>DFH
+        Stadium (10th Anniversary)\\n        </value></part><part><name>score1</name><equals>=</equals><value>1</value></part><part><name>score2</name><equals>=</equals><value>3\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value/></part><part><name>timeout</name><equals>=</equals><value>1\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=27908\\n    </value></part></template>\\n    </value></part><part><name>map4</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>Utopia
+        Coliseum (Dusk)\\n        </value></part><part><name>score1</name><equals>=</equals><value>0</value></part><part><name>score2</name><equals>=</equals><value>1\\n        </value></part><part><name>ot</name><equals>=</equals><value>t</value></part><part><name>otlength</name><equals>=</equals><value>+0:43\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=28447\\n    </value></part></template>\\n    </value></part><part><name>map5</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>AquaDome
+        (Salty Shallows)\\n        </value></part><part><name>score1</name><equals>=</equals><value>0</value></part><part><name>score2</name><equals>=</equals><value>2\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>https://youtu.be/X6VlMtvO6JU?t=28901\\n    </value></part></template>\\n    </value></part><part><name>map6</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>\\n        </value></part><part><name>score1</name><equals>=</equals><value/></part><part><name>score2</name><equals>=</equals><value>\\n        </value></part><part><name>ot</name><equals>=</equals><value/></part><part><name>otlength</name><equals>=</equals><value>\\n        </value></part><part><name>vod</name><equals>=</equals><value>\\n    </value></part></template>\\n    </value></part><part><name>map7</name><equals>=</equals><value><template><title>Map\\n        </title><part><name>map</name><equals>=</equals><value>\\n        </value></part><part><name>score"}],"model":"gpt-4o-mini"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - api.openai.com
+      X-Stainless-Arch:
+      - x64
+      X-Stainless-Lang:
+      - ruby
+      X-Stainless-Os:
+      - Linux
+      X-Stainless-Package-Version:
+      - 0.17.1
+      X-Stainless-Runtime:
+      - ruby
+      X-Stainless-Runtime-Version:
+      - 3.3.9
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <OPENAI_API_KEY>
+      X-Stainless-Retry-Count:
+      - '0'
+      X-Stainless-Timeout:
+      - '10000.0'
+      Content-Length:
+      - '41846'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 17 Aug 2025 14:29:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - X-Request-ID
+      Openai-Organization:
+      - excolotest
+      Openai-Processing-Ms:
+      - '15736'
+      Openai-Project:
+      - proj_2RUQ525EL3RmX48KHAWNBM2F
+      Openai-Version:
+      - '2020-10-01'
+      X-Envoy-Upstream-Service-Time:
+      - '15779'
+      X-Ratelimit-Limit-Requests:
+      - '200'
+      X-Ratelimit-Limit-Tokens:
+      - '60000'
+      X-Ratelimit-Remaining-Requests:
+      - '157'
+      X-Ratelimit-Remaining-Tokens:
+      - '49767'
+      X-Ratelimit-Reset-Requests:
+      - 5h2m25.571s
+      X-Ratelimit-Reset-Tokens:
+      - 10.233s
+      X-Request-Id:
+      - req_59b910735e22456a94b90e1e9cca7d1a
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=9kMxjGQRDpoIZ2L0zYO6Dh1CavqPLm1KuMeZW61htIE-1755440979-1.0.1.1-Fi0nQRHz_SWaL97FZMbnRa5mwfvE1J6dishqmzA91JCSSgg4it4UNNzJJKJ4yJOlExVCmRr3HnnjcmzxE_IXKXvFhRBQAZcV1S_sSAhZViA;
+        path=/; expires=Sun, 17-Aug-25 14:59:39 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=JwTIHGfnmkdCSMiP9H7hXBJdDlXlwgeL6QQ7u7RpP9I-1755440979089-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 9709dd036ecd56c5-OSL
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "id": "chatcmpl-C5Yfro708N5R8h9PNcsXXaSVPCM7B",
+          "object": "chat.completion",
+          "created": 1755440963,
+          "model": "gpt-4o-mini-2024-07-18",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "### Rocket League Tournament Summary - Esports World Cup 2025\n\n#### Overview\nThe **Esports World Cup**, building on the legacy of the Gamers8 series, features Rocket League as part of the tournament scheduled from **August 14th to August 17th, 2025**. The tournament includes a **$1,000,000 prize pool** and is structured into two main phases: the Group Stage and the Playoffs.\n\n#### Participants\nThe tournament comprises **16 teams** split into four groups. Some notable teams include:\n- **Karmine Corp**\n- **Dignitas**\n- **Team Vitality**\n- **Geekay Esports**\n- **NRG**\n- **The Ultimates**\n- **Spacestation Gaming**\n- **Gen.G Mobil1 Racing**\n- **FURIA**\n- **Team Secret**\n- **Team Falcons**\n- **Twisted Minds**\n- **Wildcard**\n- **TSM**\n- **FUT Esports**\n- **Virtus.pro**\n\n#### Current Status\n**Latest Match Results (Playoffs):**\n1. **Team Falcons** defeated **Spacestation Gaming** with a score of **4-1**.\n   - Maps played: \n     - Mannfield (Night): 5-4 (OT) \n     - Forbidden Temple: 3-1 \n     - DFH Stadium: 4-1 \n     - Utopia Coliseum: 0-1 \n     - AquaDome: 3-0\n\n2. **Karmine Corp** overwhelmed **Team Secret** with a score of **4-1**.\n   - Maps played: \n     - Mannfield (Night): 3-1 \n     - Forbidden Temple: 2-3 \n     - DFH Stadium: 3-1 \n     - Utopia Coliseum: 6-1 \n     - AquaDome: 5-1\n\n3. **Team Vitality** won against **NRG** with a score of **4-2**.\n   - Maps played: \n     - Mannfield (Night): 0-3 \n     - Forbidden Temple: 1-0 \n     - DFH Stadium: 2-1 (OT) \n     - Utopia Coliseum: 3-1 \n     - AquaDome: 2-4 \n     - Neo Tokyo: 2-0\n\n4. **Dignitas** faced **Geekay Esports** and lost, with **Geekay** winning **4-1**.\n   - Maps played: \n     - Mannfield (Night): 3-2 \n     - Forbidden Temple: 2-3 \n     - DFH Stadium: 1-3 \n     - Utopia Coliseum: 0-1 \n     - AquaDome: 0-2\n\n#### Upcoming Matches\nThe next matches in the playoffs will include the semifinals, which will feature teams that emerged victorious from the quarterfinals.\n\n### Format Summary\n- **Group Stage (August 14-16):** Teams are divided into groups where they compete in a best-of-five format. The top two teams from each group advance to the playoffs.\n- **Playoffs (August 16-17):** A single-elimination bracket where teams fight for the championship title.\n\n#### Prize Pool Distribution\nThe prize pool of $1,000,000 will be distributed among the teams, with the top four teams receiving significant prizes along with points towards the EWC Club Standings.\n\n### Conclusion\nThe Esports World Cup 2025 for Rocket League is off to an exciting start, featuring highly competitive matches with skilled teams vying for the championship title and a substantial prize pool. The tournament will continue with high-stakes matches leading to the finals.",
+                "refusal": null,
+                "annotations": []
+              },
+              "logprobs": null,
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 12966,
+            "completion_tokens": 774,
+            "total_tokens": 13740,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "service_tier": "default",
+          "system_fingerprint": "fp_51db84afab"
+        }
+  recorded_at: Sun, 17 Aug 2025 14:29:39 GMT
+recorded_with: VCR 6.3.1

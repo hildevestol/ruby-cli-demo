@@ -8,11 +8,11 @@ require_relative 'src/cli'
 class App < Thor
   desc 'ai', 'desc'
   def ai
-    CLI.ai
+    puts CLI.ai
   end
 
   desc 'ewc', 'returns summary of ewc 2025'
   def ewc
-    CLI.ewc
+    puts CLI.ewc
   end
 end

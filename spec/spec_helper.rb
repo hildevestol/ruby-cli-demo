@@ -21,15 +21,25 @@ $LOAD_PATH.unshift File.expand_path('../src', __dir__)
 $LOAD_PATH.unshift File.expand_path('../src/services', __dir__)
 $LOAD_PATH.unshift File.expand_path('../src/helpers', __dir__)
 
-
+# TODO: Extract to separate file
 require 'vcr'
-
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/vcr_cassettes' # Directory to store recorded interactions
   config.hook_into :webmock # or :faraday, etc., depending on your chosen library
   config.filter_sensitive_data('<OPENAI_API_KEY>') do |interaction|
     # Example: Replace AWS access key from environment variables
     ENV['OPENAI_API_KEY']
+  end
+end
+
+# TODO: Extract to separate file
+RSpec::Matchers.define :eq_ignoring_whitespace do |expected|
+  match do |actual|
+    actual.gsub(/\s+/, ' ').strip == expected.gsub(/\s+/, ' ').strip
+  end
+
+  failure_message do |actual|
+    "expected that '#{actual}' (normalized: '#{actual.gsub(/\s+/, ' ').strip}') would equal '#{expected}' (normalized: '#{expected.gsub(/\s+/, ' ').strip}') ignoring whitespace"
   end
 end
 

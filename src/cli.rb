@@ -7,7 +7,7 @@ require_relative 'helpers/liquipedia_url'
 # This is the main class used by the Thorfile
 class CLI
   def self.ai
-    puts MyAi.new.talk.response_content
+    MyAi.new.talk.response_content
   end
 
   # TODO: Refactor
@@ -25,7 +25,7 @@ class CLI
       { role: 'system', content: 'You are a esport research assistant who summarizes information about esport events.' },
       { role: 'user',   content: "Summarize the Rocket League tournament so far in the Esports World Cup including which teams that participates, teams remaining, latest match results and next matches from these sources:\n\n#{pages.join("\n\n")}" },
     ]
-    puts MyAi.new.create(messages).response_content
+    MyAi.new.create(messages).response_content
   end
   # rubocop:enable Metrics/MethodLength, Layout/LineLength
 end
