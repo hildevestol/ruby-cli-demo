@@ -1,0 +1,10 @@
+plugins: rubocop-rspec
+
+AllCops:
+  Exclude:
+    - "bundle/**/*"
+    - "spec/spec_helper.rb"
+  NewCops: enable
+
+Layout/LineLength:
+  Max: 80

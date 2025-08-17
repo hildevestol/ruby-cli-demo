@@ -1,22 +1,26 @@
-require 'my_ai.rb'
+# frozen_string_literal: true
+
+require 'my_ai'
 
 describe MyAi do
-  subject { described_class.new }
+  subject(:my_ai) { described_class.new }
 
   it { is_expected.to have_attributes(model: 'gpt-4o-mini') }
 
   describe '#talk' do
     let(:result) do
-      subject.talk
+      my_ai.talk
     end
 
+    # rubocop:disable RSpec/MessageChain
     it 'calls ai methods with correct params' do
-      expect(subject.ai).to(
+      expect(my_ai.ai).to(
         receive_message_chain(:chat, :completions, :create)
-          .with(messages: anything, model: 'gpt-4o-mini'.to_sym)
+          .with(messages: anything, model: :'gpt-4o-mini')
       )
-      subject.talk
+      my_ai.talk
     end
+    # rubocop:enable RSpec/MessageChain
 
     it 'returns a OpenAI::Models::Chat::ChatCompletion' do
       expect(result).to be_a(OpenAI::Models::Chat::ChatCompletion)
