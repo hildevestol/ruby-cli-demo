@@ -20,4 +20,9 @@ class App < Thor
   def rlcs
     puts CLI.rlcs
   end
+
+  desc 'tournaments', 'Lists information about upcoming RL tournaments'
+  def tournaments
+    puts CLI.tournaments
+  end
 end

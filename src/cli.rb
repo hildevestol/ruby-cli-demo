@@ -3,6 +3,7 @@
 require_relative 'services/my_ai'
 require_relative 'services/ewc'
 require_relative 'services/rlcs'
+require_relative 'services/tournament'
 require_relative 'helpers/md_file'
 
 # This is the main class used by the Thorfile
@@ -32,6 +33,15 @@ class CLI
     res = RLCS.new.call
     Helpers::MdFile.new.write_with_timestamp(
       name: 'rlcs',
+      content: res,
+    )
+    res
+  end
+
+  def self.tournaments
+    res = Tournament.new.call
+    Helpers::MdFile.new.write_with_timestamp(
+      name: 'tournaments',
       content: res,
     )
     res

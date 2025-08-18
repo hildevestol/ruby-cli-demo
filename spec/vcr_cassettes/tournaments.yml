@@ -1,0 +1,105 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"messages":[{"role":"user","content":"Go to https://liquipedia.net/rocketleague/S-Tier_Tournaments
+        and give a list of upcoming Rocket League tournament. The list should contain
+        when, where, link to the site, teams playing (if available) and links to english
+        stream on Youtube or Twitch"}],"model":"gpt-4o-mini-search-preview"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - api.openai.com
+      X-Stainless-Arch:
+      - x64
+      X-Stainless-Lang:
+      - ruby
+      X-Stainless-Os:
+      - Linux
+      X-Stainless-Package-Version:
+      - 0.17.1
+      X-Stainless-Runtime:
+      - ruby
+      X-Stainless-Runtime-Version:
+      - 3.3.9
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <OPENAI_API_KEY>
+      X-Stainless-Retry-Count:
+      - '0'
+      X-Stainless-Timeout:
+      - '10000.0'
+      Content-Length:
+      - '327'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Aug 2025 14:41:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - X-Request-ID
+      Openai-Organization:
+      - excolotest
+      Openai-Processing-Ms:
+      - '5162'
+      Openai-Project:
+      - proj_2RUQ525EL3RmX48KHAWNBM2F
+      Openai-Version:
+      - '2020-10-01'
+      X-Envoy-Upstream-Service-Time:
+      - '5355'
+      X-Ratelimit-Limit-Requests:
+      - '100'
+      X-Ratelimit-Limit-Tokens:
+      - '6000'
+      X-Ratelimit-Remaining-Requests:
+      - '99'
+      X-Ratelimit-Remaining-Tokens:
+      - '5936'
+      X-Ratelimit-Reset-Requests:
+      - 600ms
+      X-Ratelimit-Reset-Tokens:
+      - 640ms
+      X-Request-Id:
+      - req_108a1888ff514e5ab865f69767130150
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=C6qpTyDB18dhJ_LxabhMw2Q3SA4NAfOoPhCu1DuSHJQ-1755528095-1.0.1.1-fLn6MUh2Bwzo8plfsdFuHO.szKjEt6VNoXkdmjjIUJQWSDbGdYkFNgqURGK6Q47XM9fVowJ_V99G40a2jZairKBkjRuLPJxGL6nZXauepkE;
+        path=/; expires=Mon, 18-Aug-25 15:11:35 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=TgcHnDaCz46RnlSIQtHVSKQ_tgnFZRDiRoPFhAa4OpE-1755528095682-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 97122c210ca156b4-OSL
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICJpZCI6ICJjaGF0Y21wbC1jMDU1NjZmNi1hNzc5LTQzOGEtODlmZC02NGVjMzQ1OTA2YTQiLAogICJvYmplY3QiOiAiY2hhdC5jb21wbGV0aW9uIiwKICAiY3JlYXRlZCI6IDE3NTU1MjgwOTAsCiAgIm1vZGVsIjogImdwdC00by1taW5pLXNlYXJjaC1wcmV2aWV3LTIwMjUtMDMtMTEiLAogICJjaG9pY2VzIjogWwogICAgewogICAgICAiaW5kZXgiOiAwLAogICAgICAibWVzc2FnZSI6IHsKICAgICAgICAicm9sZSI6ICJhc3Npc3RhbnQiLAogICAgICAgICJjb250ZW50IjogIkhlcmUgYXJlIHRoZSB1cGNvbWluZyBTLVRpZXIgUm9ja2V0IExlYWd1ZSB0b3VybmFtZW50czpcblxuMS4gKipSb2NrZXQgTGVhZ3VlIFdvcmxkIENoYW1waW9uc2hpcCAyMDI1KipcbiAgIC0gKipXaGVuOioqIFNlcHRlbWJlciA54oCTMTQsIDIwMjVcbiAgIC0gKipXaGVyZToqKiBMeW9uLUTDqWNpbmVzLCBGcmFuY2VcbiAgIC0gKipMaW5rIHRvIHNpdGU6KiogW1JvY2tldCBMZWFndWUgV29ybGQgQ2hhbXBpb25zaGlwIDIwMjVdKGh0dHBzOi8vbGlxdWlwZWRpYS5uZXQvcm9ja2V0bGVhZ3VlL1MtVGllcl9Ub3VybmFtZW50cylcbiAgIC0gKipUZWFtcyBwbGF5aW5nOioqIDIwIHBhcnRpY2lwYW50cyAoc3BlY2lmaWMgdGVhbXMgdG8gYmUgZGV0ZXJtaW5lZClcbiAgIC0gKipFbmdsaXNoIHN0cmVhbToqKiBbUm9ja2V0IExlYWd1ZSBUd2l0Y2ggQ2hhbm5lbF0oaHR0cHM6Ly93d3cudHdpdGNoLnR2L3JvY2tldGxlYWd1ZSlcblxuMi4gKipGSUZBZSBXb3JsZCBDdXAgMjAyNSoqXG4gICAtICoqV2hlbjoqKiBEZWNlbWJlciAxNeKAkzE5LCAyMDI1XG4gICAtICoqV2hlcmU6KiogUml5YWRoLCBTYXVkaSBBcmFiaWFcbiAgIC0gKipMaW5rIHRvIHNpdGU6KiogW0ZJRkFlIFdvcmxkIEN1cCAyMDI1XShodHRwczovL2xpcXVpcGVkaWEubmV0L3JvY2tldGxlYWd1ZS9TLVRpZXJfVG91cm5hbWVudHMpXG4gICAtICoqVGVhbXMgcGxheWluZzoqKiAxNiBwYXJ0aWNpcGFudHMgKHNwZWNpZmljIHRlYW1zIHRvIGJlIGRldGVybWluZWQpXG4gICAtICoqRW5nbGlzaCBzdHJlYW06KiogW0ZJRkFlIFR3aXRjaCBDaGFubmVsXShodHRwczovL3d3dy50d2l0Y2gudHYvZmlmYWUpXG5cblBsZWFzZSBub3RlIHRoYXQgdGhlIHNwZWNpZmljIHRlYW1zIHBhcnRpY2lwYXRpbmcgaW4gdGhlc2UgdG91cm5hbWVudHMgd2lsbCBiZSBkZXRlcm1pbmVkIGNsb3NlciB0byB0aGUgZXZlbnQgZGF0ZXMuIEZvciB0aGUgbW9zdCB1cC10by1kYXRlIGluZm9ybWF0aW9uLCByZWZlciB0byB0aGUgb2ZmaWNpYWwgdG91cm5hbWVudCB3ZWJzaXRlcyBhbmQgc3RyZWFtaW5nIGNoYW5uZWxzLiAiLAogICAgICAgICJyZWZ1c2FsIjogbnVsbCwKICAgICAgICAiYW5ub3RhdGlvbnMiOiBbXQogICAgICB9LAogICAgICAiZmluaXNoX3JlYXNvbiI6ICJzdG9wIgogICAgfQogIF0sCiAgInVzYWdlIjogewogICAgInByb21wdF90b2tlbnMiOiA1NCwKICAgICJjb21wbGV0aW9uX3Rva2VucyI6IDI2NSwKICAgICJ0b3RhbF90b2tlbnMiOiAzMTksCiAgICAicHJvbXB0X3Rva2Vuc19kZXRhaWxzIjogewogICAgICAiY2FjaGVkX3Rva2VucyI6IDAsCiAgICAgICJhdWRpb190b2tlbnMiOiAwCiAgICB9LAogICAgImNvbXBsZXRpb25fdG9rZW5zX2RldGFpbHMiOiB7CiAgICAgICJyZWFzb25pbmdfdG9rZW5zIjogMCwKICAgICAgImF1ZGlvX3Rva2VucyI6IDAsCiAgICAgICJhY2NlcHRlZF9wcmVkaWN0aW9uX3Rva2VucyI6IDAsCiAgICAgICJyZWplY3RlZF9wcmVkaWN0aW9uX3Rva2VucyI6IDAKICAgIH0KICB9LAogICJzeXN0ZW1fZmluZ2VycHJpbnQiOiAiIgp9Cg==
+  recorded_at: Mon, 18 Aug 2025 14:41:35 GMT
+recorded_with: VCR 6.3.1

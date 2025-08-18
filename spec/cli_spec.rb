@@ -27,4 +27,17 @@ describe CLI do
       expect { rlcs }.to change { file_count('md_files/test/rlcs') }.by(1)
     end
   end
+
+  describe '.tournament' do
+    subject(:tournaments) do
+      VCR.use_cassette('tournaments') do
+        described_class.tournaments
+      end
+    end
+
+    it 'gets information from ai' do
+      file = File.read(File.expand_path('./fixtures/tournaments.md', __dir__))
+      expect(file).to eq_ignoring_whitespace(tournaments)
+    end
+  end
 end
