@@ -19,37 +19,7 @@
 ENV['APP_ENV'] = 'test'
 
 $LOAD_PATH.unshift File.expand_path('../src', __dir__)
-
-require 'support/helpers'
-require 'fileutils'
-
-# TODO: Extract to separate file
-require 'vcr'
-VCR.configure do |config|
-  config.cassette_library_dir = 'spec/vcr_cassettes' # Directory to store recorded interactions
-  config.hook_into :webmock # or :faraday, etc., depending on your chosen library
-
-  # Match on method, uri AND body
-  # to ensure it fails if e.g. a request to AI
-  # changes in code, then we want to re-record the result
-  config.default_cassette_options[:match_requests_on] = [:method, :uri, :body] # default [:method, :uri]
-
-  # Filter out sensitive information
-  config.filter_sensitive_data('<OPENAI_API_KEY>') do |interaction|
-    ENV['OPENAI_API_KEY']
-  end
-end
-
-# TODO: Extract to separate file
-RSpec::Matchers.define :eq_ignoring_whitespace do |expected|
-  match do |actual|
-    actual.gsub(/\s+/, ' ').strip == expected.gsub(/\s+/, ' ').strip
-  end
-
-  failure_message do |actual|
-    "expected that '#{actual}' (normalized: '#{actual.gsub(/\s+/, ' ').strip}') would equal '#{expected}' (normalized: '#{expected.gsub(/\s+/, ' ').strip}') ignoring whitespace"
-  end
-end
+Dir['./spec/support/**/*.rb'].sort.each { |f| require f }
 
 RSpec.configure do |config|
   config.include Helpers
