@@ -1,6 +1,6 @@
-# Just a demo app
+# Just for fun
 
-The reason for this is just to test some stuff by using a simple Ruby CLI application
+This is just a fun little CLI app where I test some AI stuff. At the moment it just gives some information about Rocket League (esport) related stuff. 
 
 Docker and Makefiles are heaveliy inspired by [Docker Ruby Boiler Plate](https://github.com/amrabdelwahab/docker-ruby-boilerplate/tree/master) written by [@amrabdelwahab](https://github.com/amrabdelwahab)
 
