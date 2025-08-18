@@ -4,6 +4,15 @@ This is just a fun little CLI app where I test some AI stuff. At the moment it j
 
 Docker and Makefiles are heaveliy inspired by [Docker Ruby Boiler Plate](https://github.com/amrabdelwahab/docker-ruby-boilerplate/tree/master) written by [@amrabdelwahab](https://github.com/amrabdelwahab)
 
+## What does it do?
+
+The application uses [thor](https://github.com/rails/thor) for simplifying the cli and at the moment have the following options. (To list the current options you can do `make list` or `thor list` if you are already inside the container)
+
+- `thor app:ai`: Just puts out a dummy text from the AI
+- `thor app:ewc`: First manually fetches information from Liquipedia for EWC Rocket League 2025 and then passes that information to the AI to get a summary of the tournaments, result of the latest matches, upcoming matches, etc (NOTE: The tournament is now over, but was just used as a test case while it was still running)
+- `thor app:rlcs`: Asks the AI (`gpt-4o-mini-search-preview`) directly to go to a specific Liquipedia page and give me a list of all the teams that has won RLCS Worlds including the players on the team.
+- `thor app:tournaments`: Asks the AI (`gpt-4o-mini-search-preview`) directly to go to a specific Liquipedia page and give me a list of all upcomming Rocket League tournaments.
+
 ## Requirements
 
 - [Docker](https://www.docker.com) installed and running
