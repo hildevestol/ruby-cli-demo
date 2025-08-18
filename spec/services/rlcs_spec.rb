@@ -10,7 +10,7 @@ describe RLCS do
   end
 
   it 'works?' do
-    file = File.read(File.expand_path('../support/rlcs.md', __dir__))
+    file = File.read(File.expand_path('../fixtures/rlcs.md', __dir__))
     expect(file).to eq_ignoring_whitespace(rlcs)
   end
 end

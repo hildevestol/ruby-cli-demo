@@ -16,10 +16,15 @@
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+ENV['APP_ENV'] = 'test'
+
 # TODO: There should be a way to do this recursevly
 $LOAD_PATH.unshift File.expand_path('../src', __dir__)
 $LOAD_PATH.unshift File.expand_path('../src/services', __dir__)
 $LOAD_PATH.unshift File.expand_path('../src/helpers', __dir__)
+
+require 'support/helpers'
+require 'fileutils'
 
 # TODO: Extract to separate file
 require 'vcr'
@@ -44,6 +49,17 @@ RSpec::Matchers.define :eq_ignoring_whitespace do |expected|
 end
 
 RSpec.configure do |config|
+  config.include Helpers
+
+  # Remove all files created by tests
+  # unless ENV KEEP_TEST_FILES is set
+  config.after(:all) do
+    next if ENV.fetch('KEEP_TEST_FILES', nil)
+
+    folder_path = 'md_files/test'
+    FileUtils.rm_rf(Dir.glob("#{folder_path}/*"))
+  end
+
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.

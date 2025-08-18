@@ -6,7 +6,7 @@ require_relative 'src/cli'
 # List commands by using thor list
 # Call command by e.g. 'thor ai'
 class App < Thor
-  desc 'ai', 'desc'
+  desc 'ai', 'Just a real simple ai test'
   def ai
     puts CLI.ai
   end
@@ -14,5 +14,10 @@ class App < Thor
   desc 'ewc', 'returns summary of ewc 2025'
   def ewc
     puts CLI.ewc
+  end
+
+  desc 'rlcs', 'Returns list of RLCS winners'
+  def rlcs
+    puts CLI.rlcs
   end
 end
