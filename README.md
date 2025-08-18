@@ -9,9 +9,9 @@ Docker and Makefiles are heaveliy inspired by [Docker Ruby Boiler Plate](https:/
 The application uses [thor](https://github.com/rails/thor) for simplifying the cli and at the moment have the following options. (To list the current options you can do `make list` or `thor list` if you are already inside the container)
 
 - `thor app:ai`: Just puts out a dummy text from the AI
-- `thor app:ewc`: First manually fetches information from Liquipedia for EWC Rocket League 2025 and then passes that information to the AI to get a summary of the tournaments, result of the latest matches, upcoming matches, etc (NOTE: The tournament is now over, but was just used as a test case while it was still running)
-- `thor app:rlcs`: Asks the AI (`gpt-4o-mini-search-preview`) directly to go to a specific Liquipedia page and give me a list of all the teams that has won RLCS Worlds including the players on the team.
-- `thor app:tournaments`: Asks the AI (`gpt-4o-mini-search-preview`) directly to go to a specific Liquipedia page and give me a list of all upcomming Rocket League tournaments.
+- `thor app:ewc`: First manually fetches information from Liquipedia for EWC Rocket League 2025 and then passes that information to the AI to get a summary of the tournaments, result of the latest matches, upcoming matches, etc (NOTE: The tournament is now over, but was just used as a test case while it was still running). [Example response](https://github.com/hildevestol/ruby-cli-ai-fun/blob/master/spec/fixtures/ewc.md)
+- `thor app:rlcs`: Asks the AI (`gpt-4o-mini-search-preview`) directly to go to a specific Liquipedia page and give me a list of all the teams that has won RLCS Worlds including the players on the team. [Example response](https://github.com/hildevestol/ruby-cli-ai-fun/blob/master/spec/fixtures/rlcs.md)
+- `thor app:tournaments`: Asks the AI (`gpt-4o-mini-search-preview`) directly to go to a specific Liquipedia page and give me a list of all upcomming Rocket League tournaments. [Example response](https://github.com/hildevestol/ruby-cli-ai-fun/blob/master/spec/fixtures/tournaments.md)
 
 ## Requirements
 
