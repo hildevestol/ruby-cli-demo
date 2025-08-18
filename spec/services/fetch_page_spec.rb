@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'fetch_page'
-require 'liquipedia_url'
+require 'services/fetch_page'
+require 'helpers/liquipedia_url'
 
 describe FetchPage do
   subject(:fetch_page) { described_class.new }

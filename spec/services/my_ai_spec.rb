@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'my_ai'
+require 'services/my_ai'
 
 describe MyAi do
   subject(:my_ai) { described_class.new }

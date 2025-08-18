@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'rlcs'
+require 'services/rlcs'
 
 describe RLCS do
   subject(:rlcs) do

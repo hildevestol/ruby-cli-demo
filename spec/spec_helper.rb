@@ -18,10 +18,7 @@
 
 ENV['APP_ENV'] = 'test'
 
-# TODO: There should be a way to do this recursevly
 $LOAD_PATH.unshift File.expand_path('../src', __dir__)
-$LOAD_PATH.unshift File.expand_path('../src/services', __dir__)
-$LOAD_PATH.unshift File.expand_path('../src/helpers', __dir__)
 
 require 'support/helpers'
 require 'fileutils'
