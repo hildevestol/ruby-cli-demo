@@ -1,6 +1,6 @@
 # Just for fun
 
-This is just a fun little CLI app where I test some AI stuff. At the moment it just gives some information about Rocket League (esport) related stuff. 
+This is just a fun little CLI app where I test some AI stuff. At the moment it just gives some information about Rocket League (esport) related stuff. The hope is to expand it to a tool I can actually use to fetch information about upcoming tournaments, get some stats, etc.
 
 Docker and Makefiles are heaveliy inspired by [Docker Ruby Boiler Plate](https://github.com/amrabdelwahab/docker-ruby-boilerplate/tree/master) written by [@amrabdelwahab](https://github.com/amrabdelwahab)
 
