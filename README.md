@@ -20,7 +20,7 @@ The application uses [thor](https://github.com/rails/thor) for simplifying the c
 ## Usefull things
 
 - `$ make help` => Lists alle available make commands
-- `$ make run`  => Runs the app as a "one-off"
+- `$ make run`  => Runs the app as a "one-off" (in this case just dummy ai response)
 - `$ make test`  => Runs the test as a "one-off"
 - `$ make rubo`  => Runs the rubocop as a "one-off"
 - Don't use `gem install {gem}` inside a container, but rather add gems to the Gemfile or use `bundle add {gem}`
